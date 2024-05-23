@@ -136,8 +136,10 @@ async function getRecipes() {
               // A11. TODO - Pass any errors to the Promise's reject() function
               reject(error);
             }
+
           });
         });
+        return myPromise;
       }
 
 /**
